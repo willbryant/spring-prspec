@@ -1,7 +1,3 @@
-require "spring/prspec/version"
-
-module Spring
-  module Prspec
-    # Your code goes here...
-  end
+if defined?(Spring.register_command)
+  require "spring/commands/prspec"
 end
